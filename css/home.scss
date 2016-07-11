@@ -1,0 +1,219 @@
+/* HOME PAGE */
+
+a{
+	color: white;
+}
+
+.welcome-section{
+	position: relative;
+	top:80px;
+	background-image: url("../images/1.jpg");
+	height:90vh;
+	transition: .2s;
+
+	.expanded{
+		height:700px;
+	}
+}
+
+
+.opacity{
+	position: absolute;
+	height:100%;
+	width:100%;
+	background-color:black;
+}
+
+.opacity-layer{
+	@extend .opacity;
+	opacity:0.6;
+	z-index:0;
+}
+
+.website-name{
+	position: relative;
+	color: white;
+	height:auto;
+	margin:110px 0 0 0;
+
+	img{
+		position:relative;
+		left:50%;
+		width:auto;
+		height:auto;
+		margin-left:-221.5px;
+	}
+}
+
+.welcome-text{
+	position:relative;
+	/*top:50%;*/
+	color:white;
+	height:200px;
+	margin:60px 0 0 0;
+
+	h1{
+		font-family:Kenzo;
+		font-size:34px;
+		margin-bottom:10px;
+	}	
+}
+
+
+.mobile-text{
+	display:none;
+}
+
+.see-more{
+	position:relative;
+	bottom:-240px;
+	color:white;
+	font-size:24px;
+	z-index: 998;
+	text-align: center;
+	font-family:Kenzo;
+}
+
+
+.content-featured{
+	position: relative;
+	top:80px;
+	height:auto;
+	width:100%;
+	background-color:#5A9AA6;
+	color:white;
+	text-align: center;
+	overflow:hidden;
+	padding-bottom:30px;
+	
+	> p{
+		font-size: 34px;
+		margin:10px 0 0 0;
+		font-family:Kenzo;
+	}
+}
+
+.feature{
+	cursor:pointer;
+	width:270px;
+	height:240px;
+	margin: 10px 0 10px 0;
+	overflow: hidden;
+}
+
+.featured-opacity{
+	@extend .opacity;
+	opacity:0.5;
+	transition: all 0.6s;
+}
+
+.test{
+	position:relative;
+	width:100%;
+	height:100%;
+	color:white;
+
+	img {
+		width:100%;
+		height:100%;
+		border:solid 2px white;
+	}
+
+	&:hover{ 
+		.pop-up{
+			bottom:40px;
+		}
+		.featured-opacity{
+			opacity:0.1;
+		}
+	}
+	p{
+		position:absolute;
+		left:50%;
+		top:40%;
+		font-family:Kenzo;
+		font-size:30px;
+	}
+
+}
+
+
+
+.pop-up{
+	position:relative;
+	bottom:0px;
+	background-color:#18712b;
+	width:100%;
+	height:120px;
+	transition: all 0.2s;
+	font-size:20px;
+	font-family:Kenzo;
+}
+
+@media screen and (max-width: 425px){
+	header{
+		display:none;
+	}
+
+	.welcome-section{
+		position:static;
+	}
+	.website-name{
+		margin:50px 0 0 0;
+
+		img{
+			width:280px;
+			margin:0 0 0 -140px;
+		}
+	}
+	.welcome-text{
+		margin:20px 0 0 0;
+		
+		h1{
+			text-align:center;
+		}
+	}
+
+	.content-featured{
+		display:none;
+	}
+	.desktop-text{
+		display:none;
+	}
+	.mobile-text{
+		display:block;
+	}
+	.see-more{
+		display:none;
+	}
+	footer{
+		position:static;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+ 
+
+}
+
+
+
+.history{
+	margin-left:-40.5px;
+}
+.cafe{
+	margin-left:-24.5px;
+}
+.flora{
+	margin-left:-79px;
+}
+.woodchat{
+	margin-left:-54.5px;
+}
+.cop{
+	margin-left:-49.5px;
+}
+.events{
+	margin-left:-37px;
+}

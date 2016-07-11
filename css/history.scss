@@ -1,0 +1,110 @@
+/*HISTORY PAGE */
+body {
+	height:100vh;
+
+}
+.year{
+	position:relative;
+	height:100vh;
+	top:80px;
+	color:white;
+	text-align:center;
+	}
+
+.year-one{
+	@extend .year;
+	background-color:red;
+	
+	background: url("../images/1898.jpg") top;
+
+	.row{
+		padding:70px 0;
+	}
+}
+
+
+.year-two, {
+	@extend .year;
+	background: url("../images/1984.jpg") top;
+
+
+	.row{
+		padding-top:164.5px;
+	}
+}
+
+.year-three{
+	@extend .year;
+	background: url("../images/1990.jpg") top;
+
+
+
+	.row{
+		padding-top:164.5px;
+	}
+}
+
+.timeline-text{
+	position:relative;
+	z-index:50;
+	h1{
+		margin:0 0 0 0;
+		padding:40px 0 10px 0;
+		font-family:Kenzo;
+		font-size:52px;
+	}
+
+	p{
+		width:60%;
+		margin:0 auto;
+	}
+}
+
+
+.year-number{
+	font-family:Kenzo;
+	font-size:300px;
+	height:300px;
+	padding-top:30px;
+	text-align:center;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	
+	span{
+		position:relative;
+		top:-120px;
+	}
+}
+
+.year-text{
+	position:relative;
+	text-align:left;
+	padding:120px 0 0 0;
+	z-index:50;
+}
+
+.history-button{
+	position:fixed;
+	left:50%;
+	font-size:30px;
+	font-family:Kenzo;
+	color:white;
+	z-index:999;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+}
+
+/*.forward{
+	@extend .history-button;
+	bottom:50px;
+	margin-left:-66.5px;
+}
+
+.back{
+	@extend .history-button;
+	top:130px;
+	margin-left:-50.9px;
+}*/
+

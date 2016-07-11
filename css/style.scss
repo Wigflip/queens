@@ -1,0 +1,18 @@
+@font-face {
+    font-family:Kenzo;
+    src: url(../fonts/Kenzo.otf);
+}
+
+a:hover{
+	color:grey;
+}
+
+h1, p{
+	-webkit-font-smoothing: antialiased;
+}
+
+@import 'header';
+@import 'home';
+@import 'history';
+@import 'gallery';
+@import 'footer';

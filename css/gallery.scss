@@ -1,0 +1,33 @@
+/* GALLERY PAGE */
+
+.gallery{
+	position:relative;
+	top:80px;
+	height:auto;
+	text-align:center;
+	padding-bottom:20px;
+	background-color:#5A9AA6;
+	color:white;
+	
+
+	h1{
+		padding:10px 0 0 0;
+		font-family:Kenzo;
+		font-size:50px;
+		margin: 0 !important;
+	}
+	p{
+		padding:10px 0 20px 0;
+	}
+
+}
+
+.photo{
+	height:200px;
+	width:120px;
+	margin-bottom:30px;
+
+	img{
+	border:5px solid white;
+	}
+}

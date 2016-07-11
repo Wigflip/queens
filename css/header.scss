@@ -1,0 +1,52 @@
+header{
+	position:fixed;
+	top:0px;
+	height:80px;
+	width: 100%;
+	background-color: #239B3D;
+	z-index: 999;
+	color:white;
+}
+
+nav{
+	float:right;
+	a{
+		display:inline-block;
+		padding:28px 20px 28px 20px;
+	}
+	a:hover{
+		color:white;
+		background-color:#045216;
+	}
+	ul {
+		display: none;
+		position: absolute;
+		list-style: none;
+		margin:0 0 0 0; 
+
+		a {
+			padding: 10px 10px;
+			width:100%;
+		}
+	}
+	li{
+		background-color: #00330B;
+	}
+	div{
+		display: inline-block;
+	}
+}
+
+
+
+.queens-button, .resources {
+	a{
+		margin:0 0 0 0;
+	}
+}
+
+.queens-button:hover, .resources:hover{
+	ul{
+		display:block;
+	}
+}

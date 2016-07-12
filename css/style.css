@@ -82,7 +82,7 @@ a {
   position: relative;
   /*top:50%;*/
   color: white;
-  height: 200px;
+  height: auto;
   margin: 60px 0 0 0; }
   .welcome-text h1 {
     font-family: Kenzo;
@@ -162,18 +162,24 @@ a {
     display: none; }
 
   .welcome-section {
-    position: static; }
+    top: 0;
+    height: 100vh;
+    transition: none;
+    background-repeat: repeat-y; }
 
   .website-name {
-    margin: 50px 0 0 0; }
+    margin: 40px 0 0 0; }
     .website-name img {
       width: 280px;
       margin: 0 0 0 -140px; }
 
   .welcome-text {
-    margin: 20px 0 0 0; }
+    margin: 0 0 0 0; }
     .welcome-text h1 {
       text-align: center; }
+
+  footer {
+    display: none; }
 
   .content-featured {
     display: none; }
@@ -208,7 +214,7 @@ a {
   margin-left: -37px; }
 
 /*HISTORY PAGE */
-body {
+#history-body {
   height: 100vh; }
 
 .year, .year-one, .year-two, .year-three {

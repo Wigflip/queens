@@ -4,6 +4,12 @@ a{
 	color: white;
 }
 
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One';
+
+.fjalla{
+	font-family:'Fjalla One', sans-serif;
+}
+
 .welcome-section{
 	position: relative;
 	top:80px;
@@ -47,13 +53,12 @@ a{
 
 .welcome-text{
 	position:relative;
-	/*top:50%;*/
 	color:white;
 	height:auto;
-	margin:60px 0 0 0;
+	margin:70px 0 0 0;
 
 	h1{
-		font-family:Kenzo;
+		@extend .fjalla;
 		font-size:34px;
 		margin-bottom:10px;
 	}	
@@ -62,16 +67,6 @@ a{
 
 .mobile-text{
 	display:none;
-}
-
-.see-more{
-	position:relative;
-	bottom:-240px;
-	color:white;
-	font-size:24px;
-	z-index: 998;
-	text-align: center;
-	font-family:Kenzo;
 }
 
 
@@ -88,8 +83,8 @@ a{
 	
 	> p{
 		font-size: 34px;
-		margin:10px 0 0 0;
-		font-family:Kenzo;
+		margin:20px 0 10px 0;
+		@extend .fjalla;
 	}
 }
 
@@ -116,7 +111,6 @@ a{
 	img {
 		width:100%;
 		height:100%;
-		border:solid 2px white;
 	}
 
 	&:hover{ 
@@ -131,7 +125,7 @@ a{
 		position:absolute;
 		left:50%;
 		top:40%;
-		font-family:Kenzo;
+		@extend .fjalla;
 		font-size:30px;
 	}
 
@@ -143,9 +137,11 @@ a{
 	background-color:#18712b;
 	width:100%;
 	height:120px;
+	padding-top:5px;
 	transition: all 0.2s;
+	background-color:#18712b;
 	font-size:20px;
-	font-family:Kenzo;
+	@extend .fjalla;
 }
 
 @media screen and (max-width: 425px){

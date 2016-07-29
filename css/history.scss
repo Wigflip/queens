@@ -50,7 +50,7 @@
 	h1{
 		margin:0 0 0 0;
 		padding:40px 0 10px 0;
-		font-family:Kenzo;
+		@extend .fjalla;
 		font-size:52px;
 	}
 
@@ -62,8 +62,8 @@
 
 
 .year-number{
-	font-family:Kenzo;
-	font-size:300px;
+	@extend .fjalla;
+	font-size:250px;
 	height:300px;
 	padding-top:30px;
 	text-align:center;
@@ -88,7 +88,7 @@
 	position:fixed;
 	left:50%;
 	font-size:30px;
-	font-family:Kenzo;
+	@extend .fjalla;
 	color:white;
 	z-index:999;
 	-webkit-user-select: none; /* Chrome/Safari */        
@@ -96,15 +96,4 @@
 	-ms-user-select: none; /* IE10+ */
 }
 
-/*.forward{
-	@extend .history-button;
-	bottom:50px;
-	margin-left:-66.5px;
-}
-
-.back{
-	@extend .history-button;
-	top:130px;
-	margin-left:-50.9px;
-}*/
 

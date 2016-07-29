@@ -9,10 +9,13 @@ header{
 }
 
 nav{
-	float:right;
+	text-align:center;
+	@extend .fjalla;
 	a{
+		text-align:left;
 		display:inline-block;
-		padding:28px 20px 28px 20px;
+		padding:25px;
+		font-size:1.25rem;
 	}
 	a:hover{
 		color:white;
@@ -27,6 +30,7 @@ nav{
 		a {
 			padding: 10px 10px;
 			width:100%;
+			font-size:1.06rem;
 		}
 	}
 	li{

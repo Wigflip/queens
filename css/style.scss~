@@ -1,3 +1,7 @@
+@font-face {
+    font-family:Kenzo;
+    src: url(../fonts/Kenzo.otf);
+}
 
 a:hover{
 	color:grey;

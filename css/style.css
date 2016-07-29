@@ -1,6 +1,4 @@
-@font-face {
-  font-family: Kenzo;
-  src: url(../fonts/Kenzo.otf); }
+@import "https://fonts.googleapis.com/css?family=Fjalla+One";
 a:hover {
   color: grey; }
 
@@ -17,10 +15,12 @@ header {
   color: white; }
 
 nav {
-  float: right; }
+  text-align: center; }
   nav a {
+    text-align: left;
     display: inline-block;
-    padding: 28px 20px 28px 20px; }
+    padding: 25px;
+    font-size: 1.25rem; }
   nav a:hover {
     color: white;
     background-color: #045216; }
@@ -31,7 +31,8 @@ nav {
     margin: 0 0 0 0; }
     nav ul a {
       padding: 10px 10px;
-      width: 100%; }
+      width: 100%;
+      font-size: 1.06rem; }
   nav li {
     background-color: #00330B; }
   nav div {
@@ -46,6 +47,9 @@ nav {
 /* HOME PAGE */
 a {
   color: white; }
+
+.fjalla, nav, .welcome-text h1, .content-featured > p, .test p, .pop-up, .timeline-text h1, .year-number, .history-button, .gallery h1 {
+  font-family: 'Fjalla One', sans-serif; }
 
 .welcome-section {
   position: relative;
@@ -80,26 +84,15 @@ a {
 
 .welcome-text {
   position: relative;
-  /*top:50%;*/
   color: white;
   height: auto;
-  margin: 60px 0 0 0; }
+  margin: 70px 0 0 0; }
   .welcome-text h1 {
-    font-family: Kenzo;
     font-size: 34px;
     margin-bottom: 10px; }
 
 .mobile-text {
   display: none; }
-
-.see-more {
-  position: relative;
-  bottom: -240px;
-  color: white;
-  font-size: 24px;
-  z-index: 998;
-  text-align: center;
-  font-family: Kenzo; }
 
 .content-featured {
   position: relative;
@@ -113,8 +106,7 @@ a {
   padding-bottom: 30px; }
   .content-featured > p {
     font-size: 34px;
-    margin: 10px 0 0 0;
-    font-family: Kenzo; }
+    margin: 20px 0 10px 0; }
 
 .feature {
   cursor: pointer;
@@ -134,8 +126,7 @@ a {
   color: white; }
   .test img {
     width: 100%;
-    height: 100%;
-    border: solid 2px white; }
+    height: 100%; }
   .test:hover .pop-up {
     bottom: 40px; }
   .test:hover .featured-opacity {
@@ -144,7 +135,6 @@ a {
     position: absolute;
     left: 50%;
     top: 40%;
-    font-family: Kenzo;
     font-size: 30px; }
 
 .pop-up {
@@ -153,9 +143,10 @@ a {
   background-color: #18712b;
   width: 100%;
   height: 120px;
+  padding-top: 5px;
   transition: all 0.2s;
-  font-size: 20px;
-  font-family: Kenzo; }
+  background-color: #18712b;
+  font-size: 20px; }
 
 @media screen and (max-width: 425px) {
   header {
@@ -246,15 +237,13 @@ a {
   .timeline-text h1 {
     margin: 0 0 0 0;
     padding: 40px 0 10px 0;
-    font-family: Kenzo;
     font-size: 52px; }
   .timeline-text p {
     width: 60%;
     margin: 0 auto; }
 
 .year-number {
-  font-family: Kenzo;
-  font-size: 300px;
+  font-size: 250px;
   height: 300px;
   padding-top: 30px;
   text-align: center;
@@ -278,7 +267,6 @@ a {
   position: fixed;
   left: 50%;
   font-size: 30px;
-  font-family: Kenzo;
   color: white;
   z-index: 999;
   -webkit-user-select: none;
@@ -288,17 +276,6 @@ a {
   -ms-user-select: none;
   /* IE10+ */ }
 
-/*.forward{
-	@extend .history-button;
-	bottom:50px;
-	margin-left:-66.5px;
-}
-
-.back{
-	@extend .history-button;
-	top:130px;
-	margin-left:-50.9px;
-}*/
 /* GALLERY PAGE */
 .gallery {
   position: relative;
@@ -309,19 +286,18 @@ a {
   background-color: #5A9AA6;
   color: white; }
   .gallery h1 {
-    padding: 10px 0 0 0;
-    font-family: Kenzo;
+    padding: 30px 0 0 0;
     font-size: 50px;
     margin: 0 !important; }
   .gallery p {
-    padding: 10px 0 20px 0; }
+    margin: 0 0 40px 0; }
 
 .photo {
   height: 200px;
   width: 120px;
   margin-bottom: 30px; }
   .photo img {
-    border: 5px solid white; }
+    border: 2px solid white; }
 
 footer {
   position: relative;

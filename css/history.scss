@@ -44,7 +44,7 @@
 	}
 }
 
-.timeline-text{
+.intro{
 	position:relative;
 	z-index:50;
 	h1{
@@ -65,7 +65,7 @@
 	@extend .fjalla;
 	font-size:250px;
 	height:300px;
-	padding-top:30px;
+	padding-top:44px;
 	text-align:center;
 	-webkit-user-select: none; /* Chrome/Safari */        
 	-moz-user-select: none; /* Firefox */
@@ -79,8 +79,9 @@
 
 .year-text{
 	position:relative;
+	top:50%;
 	text-align:left;
-	padding:120px 0 0 0;
+	padding:46px 0 0 0;
 	z-index:50;
 }
 

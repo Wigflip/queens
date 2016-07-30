@@ -48,7 +48,7 @@ nav {
 a {
   color: white; }
 
-.fjalla, nav, .welcome-text h1, .content-featured > p, .test p, .pop-up, .timeline-text h1, .year-number, .history-button, .gallery h1 {
+.fjalla, nav, .welcome-text h1, .content-featured > p, .test p, .pop-up, .intro h1, .year-number, .history-button, .gallery h1 {
   font-family: 'Fjalla One', sans-serif; }
 
 .welcome-section {
@@ -231,21 +231,21 @@ a {
   .year-three .row {
     padding-top: 164.5px; }
 
-.timeline-text {
+.intro {
   position: relative;
   z-index: 50; }
-  .timeline-text h1 {
+  .intro h1 {
     margin: 0 0 0 0;
     padding: 40px 0 10px 0;
     font-size: 52px; }
-  .timeline-text p {
+  .intro p {
     width: 60%;
     margin: 0 auto; }
 
 .year-number {
   font-size: 250px;
   height: 300px;
-  padding-top: 30px;
+  padding-top: 44px;
   text-align: center;
   -webkit-user-select: none;
   /* Chrome/Safari */
@@ -259,8 +259,9 @@ a {
 
 .year-text {
   position: relative;
+  top: 50%;
   text-align: left;
-  padding: 120px 0 0 0;
+  padding: 46px 0 0 0;
   z-index: 50; }
 
 .history-button {

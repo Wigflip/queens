@@ -54,11 +54,8 @@ a {
 .welcome-section {
   position: relative;
   top: 80px;
-  background-image: url("../images/1.jpg");
-  height: 90vh;
-  transition: .2s; }
-  .welcome-section .expanded {
-    height: 700px; }
+  background-image: url("../images/home/background.jpg");
+  height: 90vh; }
 
 .opacity, .opacity-layer, .featured-opacity {
   position: absolute;
@@ -210,24 +207,23 @@ a {
 
 .year, .year-one, .year-two, .year-three {
   position: relative;
-  height: 100vh;
+  height: 90vh;
   top: 80px;
   color: white;
   text-align: center; }
 
 .year-one {
-  background-color: red;
-  background: url("../images/1898.jpg") top; }
+  background: url("../images/history/1898.jpg") top; }
   .year-one .row {
     padding: 70px 0; }
 
 .year-two {
-  background: url("../images/1984.jpg") top; }
+  background: url("../images/history/1984.jpg") top; }
   .year-two .row {
     padding-top: 164.5px; }
 
 .year-three {
-  background: url("../images/1990.jpg") top; }
+  background: url("../images/history/1990.jpg") top; }
   .year-three .row {
     padding-top: 164.5px; }
 
@@ -243,9 +239,11 @@ a {
     margin: 0 auto; }
 
 .year-number {
+  position: relative;
+  top: 50%;
   font-size: 250px;
   height: 300px;
-  padding-top: 44px;
+  padding-top: 100px;
   text-align: center;
   -webkit-user-select: none;
   /* Chrome/Safari */
@@ -261,7 +259,7 @@ a {
   position: relative;
   top: 50%;
   text-align: left;
-  padding: 46px 0 0 0;
+  padding: 90px 0 0 0;
   z-index: 50; }
 
 .history-button {
@@ -315,5 +313,35 @@ footer {
     font-size: 18px; }
   footer p {
     font-size: 14px; }
+
+.icon {
+  width: 30px;
+  padding: 7px 7px;
+  margin: 25px 10px 10px 10px; }
+
+.twitter {
+  height: 26px;
+  background: url("../images/icons/twitte2r.png") no-repeat;
+  background-size: contain; }
+  .twitter:hover {
+    background: url("../images/icons/twitter.png") no-repeat;
+    background-size: contain; }
+
+.youtube {
+  width: 33px;
+  height: 25px;
+  background: url("../images/icons/youtube-alt.png") no-repeat;
+  background-size: contain; }
+  .youtube:hover {
+    background: url("../images/icons/youtube-alt2.png") no-repeat;
+    background-size: contain; }
+
+.facebook {
+  height: 27px;
+  background: url("../images/icons/facebook.png") no-repeat;
+  background-size: contain; }
+  .facebook:hover {
+    background: url("../images/icons/facebook2.png") no-repeat;
+    background-size: contain; }
 
 /*# sourceMappingURL=style.css.map */

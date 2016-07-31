@@ -13,13 +13,8 @@ a{
 .welcome-section{
 	position: relative;
 	top:80px;
-	background-image: url("../images/1.jpg");
+	background-image: url("../images/home/background.jpg");
 	height:90vh;
-	transition: .2s;
-
-	.expanded{
-		height:700px;
-	}
 }
 
 

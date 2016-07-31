@@ -19,3 +19,43 @@ footer{
 		font-size:14px;
 	}
 }
+
+.icon{
+	width:30px;
+	padding:7px 7px;
+	margin:25px 10px 10px 10px;
+}
+
+
+.twitter{
+	height:26px;
+	background:url("../images/icons/twitte2r.png") no-repeat;
+	background-size:contain;
+	&:hover{
+		background:url("../images/icons/twitter.png") no-repeat;
+		background-size:contain;
+	}
+}
+
+
+
+.youtube{
+	width:33px;
+	height:25px;
+	background:url("../images/icons/youtube-alt.png") no-repeat;
+	background-size:contain;
+	&:hover{
+		background:url("../images/icons/youtube-alt2.png") no-repeat;
+		background-size:contain;
+	}
+}
+
+.facebook{
+	height:27px;
+	background:url("../images/icons/facebook.png") no-repeat;
+	background-size:contain;
+	&:hover{
+		background:url("../images/icons/facebook2.png") no-repeat;
+		background-size:contain;
+	}
+}

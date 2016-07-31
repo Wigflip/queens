@@ -5,17 +5,15 @@
 }
 .year{
 	position:relative;
-	height:100vh;
+	height:90vh;
 	top:80px;
 	color:white;
 	text-align:center;
 	}
 
 .year-one{
-	@extend .year;
-	background-color:red;
-	
-	background: url("../images/1898.jpg") top;
+	@extend .year;	
+	background: url("../images/history/1898.jpg") top;
 
 	.row{
 		padding:70px 0;
@@ -25,7 +23,7 @@
 
 .year-two, {
 	@extend .year;
-	background: url("../images/1984.jpg") top;
+	background: url("../images/history/1984.jpg") top;
 
 
 	.row{
@@ -35,7 +33,7 @@
 
 .year-three{
 	@extend .year;
-	background: url("../images/1990.jpg") top;
+	background: url("../images/history/1990.jpg") top;
 
 
 
@@ -63,9 +61,11 @@
 
 .year-number{
 	@extend .fjalla;
+	position:relative;
+	top:50%;
 	font-size:250px;
 	height:300px;
-	padding-top:44px;
+	padding-top:100px;
 	text-align:center;
 	-webkit-user-select: none; /* Chrome/Safari */        
 	-moz-user-select: none; /* Firefox */
@@ -81,7 +81,7 @@
 	position:relative;
 	top:50%;
 	text-align:left;
-	padding:46px 0 0 0;
+	padding:90px 0 0 0;
 	z-index:50;
 }
 
@@ -97,4 +97,6 @@
 	-ms-user-select: none; /* IE10+ */
 }
 
+
+	
 
